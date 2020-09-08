@@ -45,4 +45,14 @@ for item in grocery:
 print("FInished")
 print("\n")
 
+#For loop range
+for i in range(0, 15, 3):
+    print(i)
+
+grocery = ["Rice", "Potato", "Tomato", "Water", "Ginger"]
+
+for i in range(0, len(grocery), 2):
+    print(grocery[i])
+
+
 
